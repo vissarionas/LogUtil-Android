@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class LogDebug {
 
-    private static final String TAG = "LOG_UTIL";
+    private static final String TAG = "LOGUTIL";
 
     public static void showLog(String message){
         Log.e(TAG , message);

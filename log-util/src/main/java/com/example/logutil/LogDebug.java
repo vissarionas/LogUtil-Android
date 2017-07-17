@@ -1,0 +1,17 @@
+package com.example.logutil;
+
+import android.util.Log;
+
+/**
+ * Created by viss on 7/17/17.
+ */
+
+public class LogDebug {
+
+    private static final String TAG = "LOG_UTIL";
+
+    public static void showLog(String message){
+        Log.e(TAG , message);
+    }
+
+}
